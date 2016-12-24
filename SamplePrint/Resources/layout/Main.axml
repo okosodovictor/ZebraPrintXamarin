@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <TextView
+        android:text="Printer Identity"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMessage"/>
+    <EditText   
+        android:layout_width="match_parent" 
+        android:hint="Enter message to print.."
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMessage" />
+    <Button
+        android:text="Print as Barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSend" />
+</LinearLayout>
